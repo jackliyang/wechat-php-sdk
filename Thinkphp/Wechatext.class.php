@@ -392,7 +392,7 @@ class Wechatext
 	 * @param $lastid 传入最后的消息id编号,为0则从最新一条起倒序获取
 	 * @param $offset lastid起算第一条的偏移量
 	 * @param $perpage 每页获取多少条
-	 * @param $day 最近几天消息(0:今天,1:昨天,2:前天,3:五天内)
+	 * @param $day 最近几天消息(0:今天,1:昨天,2:前天,7:五天内)
 	 * @param $today 是否只显示今天的消息, 与$day参数不能同时大于0
 	 * @param $star 是否星标组信息
 	 * @return array[] 同getTopMsg()返回的字段结构相同
